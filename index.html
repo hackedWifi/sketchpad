@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="./styles/index.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
 
-    <div class="container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Etch-a-Sketch</title>
+  <link href="./styles/index.css" rel="stylesheet" type="text/css" />
+</head>
 
-    </div>
-    <footer class='footer-flex'>
-      <button class='btn grid-btn'>grid</button>
-      <button class='btn clear-btn' onclick="cls()">clear</button>
-      <button class='btn color-btn'>rainbow</button>
+<body>
+  <header class="header">
+    <h1>Etch-a-Sketch</h1>
+  </header>
+  <div class="container">
+
+  </div>
+  <footer class='footer-flex'>
+    <button class='btn grid-btn' onclick="promptGrid()">grid</button>
+    <button class='btn clear-btn' onclick="cls()">clear</button>
+    <button class='btn color-btn' onclick="rainbowColor()">rainbow</button>
 
 
-    </footer>
-    <script src="./scripts/index.js"></script>
-  </body>
+  </footer>
+  <script src="./scripts/index.js"></script>
+</body>
+
 </html>
