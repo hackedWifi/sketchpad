@@ -52,17 +52,20 @@ justify-content: center; */
 
 .container  {
 	border: 2px solid black;
-	height: 724px;
+	height: 512px;
   margin: auto;
-  width: 1024px;
-  display: grid;
-  grid-gap: 2px;
-  border-radius: 15px;
+  width: 512px;
 	padding: 10px;
+	border-radius: 15px;
 }
-.grids {
+.container > div {
+  float: left;
+  box-sizing: border-box;
+
+}
+.col {
   background-color: #ffeabb;
-  height: auto;
+  height: 25px;
   width: auto;
   border-radius: 15px;
 }
@@ -72,11 +75,15 @@ justify-content: center; */
 /*   justify-content: space-evenly;
   align-items: center; */
   height: 100px;
-  width: 1024px;
+  width: 512px;
   border: 1px solid black;
-  margin: 20px auto;
+  margin: 10px auto;
+	padding: 10px;
   border-radius: 15px;
 
+}
+h1 {
+	text-align: center;
 }
 
 .btn{
